@@ -1,4 +1,64 @@
-*{
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 400px;
     background-color: black;
-    color: aliceblue;
-}
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    font-family: monospace;
+    color:#ffffff;
+    margin: 20 0 0px;
+    font-size: 40px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 45px;
+    font-size: 20px;
+  }
+  
+  .page-logo {
+    padding: 70px;
+    width: 400px;
+  }
+  
+  .input {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 190px;
+    right: 580px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    
+  }
+
+  .desencoder-logo {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+
+  .label {
+    color: #ffffff;
+    background-color: red;
+
+
+  }
+
+  .notas {
+      color: #ffffff;
+      background-color: blue;
+
+  }
