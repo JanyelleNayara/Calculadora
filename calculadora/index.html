@@ -8,8 +8,7 @@
   <title>Cálculo de média</title>
 </head>
 
-<body>
-
+<body class="body">
   <header class="container">
     <a href="https://desencoder.com.br/" target="_blank">
       <img src="./Assets/logo-blank.svg" alt="" class="desencoder-logo">
@@ -21,27 +20,27 @@
   <main  class="main">
     <div  class="dadospessoais">
       <h2>Dados pessoais</h2>
-      <table>
+      <table class="tableDadospessoais" align="center">
         <tr>
-          <th>Nome completo:</th>
-          <td><input type="text" id="nome" placeholder="Nome completo"></td>
+          <th>Nome:</th>
+          <td><input type="text" id="nome" placeholder="Nome"style="text-align: center"></td>
         </tr>
 
         <tr>
           <th>Curso:</th>
-          <td><input type="text" id="curso" placeholder="curso"></td>
+          <td><input type="text" id="curso" placeholder="curso"style="text-align: center"></td>
         </tr>
 
         <tr>
           <th>Instituição:</th>
-          <td><input type="text" id="instituicao" placeholder="Instituição"></td>
+          <td><input type="text" id="instituicao" placeholder="Instituição"style="text-align: center"></td>
         </tr>
       </table>
     </div>
 
     <div class="notas">
         <h2>Histórico</h2>
-        <table>
+        <table  class="tableNotas" align="center" border="1">
           <thead>
             <tr>
             <th>Primeiro Bimestre</th>
@@ -51,8 +50,8 @@
 
           <tbody>
             <tr>
-              <td><input type="text" id="primeiro" placeholder="Primeiro bimestre"></td>
-              <td><input type="text" id="segundo" placeholder="Segundo bimestre"></td>
+              <td><input type="text" id="primeiro" placeholder="Primeiro bimestre" style="text-align: center"></td>
+              <td><input type="text" id="segundo" placeholder="Segundo bimestre" style="text-align: center"></td>
             </tr>
           </tbody>
          
@@ -65,17 +64,17 @@
 
           <tbody>
             <tr>       
-              <td><input type="text" id="terceiro" placeholder="Terceiro bimestre"></td>
-              <td><input type="text" id="quarto" placeholder="Quarto bimestre"></td>
+              <td><input type="text" id="terceiro" placeholder="Terceiro bimestre"style="text-align: center"></td>
+              <td><input type="text" id="quarto" placeholder="Quarto bimestre"style="text-align: center"></td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div  class="cadastrar">
+      <div class="input" >
         <input type="submit" id="cadastrar" value="cadastrar">
       </div>
   </main>
-  
+
 
 </body>
 </html>
