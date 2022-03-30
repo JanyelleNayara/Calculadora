@@ -1,64 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Nunito:ital@1&family=Roboto+Mono:wght@200;300;400;500;700&display=swap');
+
 body {
-    font-family: 'Nunito', sans-serif;
-    min-height: 400px;
-    background-color: black;
-    background-size: 80vh;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    font-family: monospace;
-    color:#ffffff;
-    margin: 20 0 0px;
-    font-size: 40px;
-  }
-  
-  .page-subtitle {
-    color:#ffffff;
-    margin-top: 45px;
-    font-size: 20px;
-  }
-  
-  .page-logo {
-    padding: 70px;
-    width: 400px;
-  }
-  
-  .input {
-    width: 200px;
-    height: 40px;
-    position: absolute;
-    top: 190px;
-    right: 580px;
-    border-radius: 5px;
-    font-size: 20px;
-    background-color: #FFFFFF;
-    
-  }
+  background-color: #0F2C49;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #FFFFFF;
+}
 
-  .desencoder-logo {
-    width: 100px;
-    position: absolute;
-    top: 20px;
-    right: 15px;
-  }
+.desencoder-logo {
+  position: absolute;
+  width: 100px;
+  right: 15px;
+  top: 20px;
+}
 
-  .label {
-    color: #ffffff;
-    background-color: red;
+.container {
+  margin: 60px;
+  text-align: center;
+}
 
+h1 {
+  font-size: 50px;
+}
 
-  }
-
-  .notas {
-      color: #ffffff;
-      background-color: blue;
-
-  }
+.main {
+  text-align: center;
+}

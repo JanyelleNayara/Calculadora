@@ -1,21 +1,38 @@
-<html>
-  <head>
-    <title> Imersão Dev Alura - Aula 01</title>
-    <link href="style.css" rel="stylesheet">
-    <script src="funcao.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="page-title">
-      Calculadora de média</h1>
-      <p class="page-subtitle">
-      Descubra qual a sua média de nota de todas as provas!
-      </p>
-      <img src="./Assets/calculation.png" alt="" class="page-logo">
-     <a href="./calculo.html">
-      <input class="input" type="submit" id="calcular" value="Clique nesse botão!"/>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet" >
+  <title>Cálculo de média</title>
+</head>
+
+<body>
+
+  <header class="container">
+    <a href="https://desencoder.com.br/" target="_blank">
+      <img src="./Assets/logo-blank.svg" alt="" class="desencoder-logo">
     </a>
-    </div>
-    <img src="./Assets/logo-blank.svg" alt="" class="desencoder-logo">
-   </body>
+      <h1>Calculadora de média</h1>
+      <h3>Descubra aqui a média de suas notas!</h3>
+  </header>
+
+  <main class="main">
+    <label>
+      <p>Nome completo</p>
+      <input type="text" id="nome" placeholder="nome completo">
+
+      <p>Curso</p>
+      <input type="text" id="curso" placeholder="curso">
+
+      <p>Instituição</p>
+      <input type="text" id="instituicao" placeholder="Instituição">
+
+    </label>
+
+  </main>
+  
+
+</body>
 </html>
