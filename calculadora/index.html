@@ -18,19 +18,62 @@
       <h3>Descubra aqui a média de suas notas!</h3>
   </header>
 
-  <main class="main">
-    <label>
-      <p>Nome completo</p>
-      <input type="text" id="nome" placeholder="nome completo">
+  <main  class="main">
+    <div  class="dadospessoais">
+      <h2>Dados pessoais</h2>
+      <table>
+        <tr>
+          <th>Nome completo:</th>
+          <td><input type="text" id="nome" placeholder="Nome completo"></td>
+        </tr>
 
-      <p>Curso</p>
-      <input type="text" id="curso" placeholder="curso">
+        <tr>
+          <th>Curso:</th>
+          <td><input type="text" id="curso" placeholder="curso"></td>
+        </tr>
 
-      <p>Instituição</p>
-      <input type="text" id="instituicao" placeholder="Instituição">
+        <tr>
+          <th>Instituição:</th>
+          <td><input type="text" id="instituicao" placeholder="Instituição"></td>
+        </tr>
+      </table>
+    </div>
 
-    </label>
+    <div class="notas">
+        <h2>Histórico</h2>
+        <table>
+          <thead>
+            <tr>
+            <th>Primeiro Bimestre</th>
+            <th>Segundo Bimestre</th>
+            </tr>
+          </thead>
 
+          <tbody>
+            <tr>
+              <td><input type="text" id="primeiro" placeholder="Primeiro bimestre"></td>
+              <td><input type="text" id="segundo" placeholder="Segundo bimestre"></td>
+            </tr>
+          </tbody>
+         
+          <thead>
+            <tr>
+              <th>Terceiro Bimestre</th>
+              <th>Quarto Bimestre</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>       
+              <td><input type="text" id="terceiro" placeholder="Terceiro bimestre"></td>
+              <td><input type="text" id="quarto" placeholder="Quarto bimestre"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div  class="cadastrar">
+        <input type="submit" id="cadastrar" value="cadastrar">
+      </div>
   </main>
   
 
