@@ -23,9 +23,6 @@
  
 }
 
-h2 {
-  color: #FFFFFF;
-}
 
 h1 {
   font-size: 50px;
@@ -45,23 +42,13 @@ color: #FFFFFF;
 
 }
 
-.tableDadospessoais {
-  width: 25rem;
-}
 
 .tableNotas {
   padding: 0.1rem;
   width: 30rem;
 }
 
-.dadospessoais, .notas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-
-.input {
+.button {
 color: #FFFFFF;
 margin-top: 1rem;
 border-radius: 2rem;
@@ -70,4 +57,13 @@ padding: 5px;
 
 input {
   margin: 0.2rem;
+}
+
+.calcular{
+    background-color: red;
+    padding: 1em;
+    width: 60%;
+    border-radius: 1em;
+    text-align: center;
+    color: #FFFFFF;
 }
