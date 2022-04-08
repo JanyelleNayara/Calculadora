@@ -58,12 +58,3 @@ padding: 5px;
 input {
   margin: 0.2rem;
 }
-
-.calcular{
-    background-color: red;
-    padding: 1em;
-    width: 60%;
-    border-radius: 1em;
-    text-align: center;
-    color: #FFFFFF;
-}
